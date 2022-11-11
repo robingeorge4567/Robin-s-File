@@ -123,7 +123,7 @@ class PagesController extends Controller
 
         
     }
-/*insert Projects new projects*/
+/*insert Projects*/
     public function save(Request $request){
 
         $request->validate([

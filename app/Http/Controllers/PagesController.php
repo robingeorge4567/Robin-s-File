@@ -148,7 +148,7 @@ class PagesController extends Controller
         $save=$project->save();
         if($save){
          
-            return redirect('projects')->with('sucess','Project added sucessfully');
+            return redirect('projects')->with('sucess','Project added');
            
         } else {
             return back()->with('fail','Something went wrong.Project Not insterted');
